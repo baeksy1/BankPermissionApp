@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundColor">#DADADA</color>
+    <color name="btnEnabled">#0650DA</color>
+    <color name="permission">#0650DA</color>
+    <color name="btnDisabled">#A5A5A5</color>
+
+    <color name="txtblackHeader">#de1d1d1d</color>
+    <color name="txtblackContent">#3d3c4a</color>
+
+
+</resources>

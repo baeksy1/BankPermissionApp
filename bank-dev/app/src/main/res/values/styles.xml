@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="btn_clickable">
+        <item name="android:layout_height">52dp</item>
+        <item name="android:strokeColor" >#00000000</item>
+        <item name="android:elevation" >0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/scdream4</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing" >0.01</item>
+        <item name="android:lineSpacingExtra">5.8sp</item>
+        <item name="android:enabled">false</item>
+        <item name="android:background">@drawable/btn_bg_clickable_selector</item>
+    </style>
+    <style name="txt_black01">
+        <item name="fontFamily">@font/scdream5</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/txtblackHeader</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing" >-0.03</item>
+        <item name="android:lineSpacingExtra">8.5sp</item>
+    </style>
+    <style name="txt_black03">
+        <item name="fontFamily">@font/scdream4</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/txtblackContent</item>
+        <item name="android:textSize">13.5sp</item>
+        <item name="android:letterSpacing" >-0.03</item>
+        <item name="android:lineSpacingExtra">7.3sp</item>
+    </style>
+
+    <style name="txt_agreement_lg">
+        <item name="fontFamily">@font/scdream5</item>
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/txt_chk_membership_agreement</item>
+        <item name="android:letterSpacing" >-0.04</item>
+        <item name="android:lineSpacingExtra">6.5sp</item>
+    </style>
+    <style name="txt_agreement_reg">
+        <item name="fontFamily">@font/scdream4</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/txt_chk_membership_agreement</item>
+        <item name="android:letterSpacing" >-0.05</item>
+        <item name="android:lineSpacingExtra">11.8sp</item>
+    </style>
+
+    <style name="txt_black05">
+        <item name="fontFamily">@font/scdream5</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/txtblackHeader</item>
+        <item name="android:textSize">15.8sp</item>
+        <item name="android:letterSpacing" >-0.04</item>
+        <item name="android:lineSpacingExtra">6.8sp</item>
+    </style>
+    <style name="txt_black06">
+        <item name="fontFamily">@font/scdream5</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/txtblackContent</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing" >-0.03</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ppcbank-dev</string>
+    <string name="txt_permission_guide">대안신용평가를 위해 다음 권한들을 사용하오니\n서비스 이용을 위해 \n권한을 허용해주시기 바랍니다</string>
+    <string name="txt_sdScore">모바일 데이터를 수집합니다.</string>
+    <string name="txt_chk_subtitle_membership_01" translatable="false">개인(신용)정보 수집 이용 제공 동의(필수)</string>
+    <string name="txt_chk_subtitle_membership_02" translatable="false">고유식별정보 수집 및 이용 동의(필수)</string>
+    <string name="txt_chk_subtitle_membership_03" translatable="false">서비스 이용 약관 동의(필수)</string>
+    <string name="txt_collect_data_progress" translatable="false">모바일 데이터를 수집 중입니다. \n수집이 완료될때까지 \n해당 앱이 종료되지 않도록 \n유지해주시기 바랍니다.</string>
+    <string name="txt_complete_data_collect" translatable="false">PPC Bank의\n대안신용평가를 위한\n고객님의 모바일 사용패턴정보 수집이\n완료되었습니다.</string>
+    <string name="txt_complete_data_collect_sub" translatable="false">빠른 시일 내에 심사결과를\n안내해 드리도록 하겠습니다. 감사합니다.</string>
+    <string name="txt_fail_data_collect" translatable="false">모바일 데이터 수집중 오류가 발생했습니다! \n다시 한 번 시도해주세요!</string>
+    <string name="txt_pressed_back" translatable="false">뒤로 버튼을 한번 더 누르시면 종료됩니다.</string>
+
+
+
+</resources>
