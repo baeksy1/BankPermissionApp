@@ -19,12 +19,12 @@ mvvm패턴
 ## 오늘 진행 상황
 
 어플 intro Activity를 제외하고 프론트 단을 만듦
+https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/53e67b78-70be-4daa-a372-c59a8aa3231b/Untitled.png
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/53e67b78-70be-4daa-a372-c59a8aa3231b/Untitled.png)
+https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/53e67b78-70be-4daa-a372-c59a8aa3231b/Untitled.png
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/83ea4cd4-c67a-4efb-932d-fefcff1668d8/Untitled.png)
+https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/db539264-626a-48af-8509-8f995c0fee86/Untitled.png
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/db539264-626a-48af-8509-8f995c0fee86/Untitled.png)
 
 ## 개발하며 고려사항
 
@@ -36,6 +36,6 @@ mvvm패턴
     - 다운로드도 아니고 전송시간도 불정확하기 떄문에 완료시간을 몰라 progressbar가 아닌 그냥 반복되는 gif로 하려고 함.
     - 하지만 gif는 android studio에서 지원이 안되기에 drawable에 gif의 프레임단위를 png로 추출하여 animation-list에 붙여넣음
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/1c5b30fc-c132-4dd0-8225-dba39f5beef6/Untitled.png)
-    
-    ![ppcbank-dev – frame_loding.xml [ppcbank-dev.app.main] 2024-02-21 17-55-57.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/e67064b5-2adb-410d-a681-1f7deaef0a5f/ppcbank-dev__frame_loding.xml_ppcbank-dev.app.main_2024-02-21_17-55-57.gif)
+    https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/1c5b30fc-c132-4dd0-8225-dba39f5beef6/Untitled.png
+
+    https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/e67064b5-2adb-410d-a681-1f7deaef0a5f/ppcbank-dev__frame_loding.xml_ppcbank-dev.app.main_2024-02-21_17-55-57.gif
