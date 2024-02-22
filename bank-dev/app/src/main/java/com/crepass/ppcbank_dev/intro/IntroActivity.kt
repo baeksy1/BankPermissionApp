@@ -17,9 +17,8 @@ class IntroActivity:AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_intro)
-        val window=this.window
 
-        handle?.postDelayed(run,1500)
+        handle?.postDelayed(run,2000)
 
 
     }
@@ -33,7 +32,6 @@ class IntroActivity:AppCompatActivity() {
             )
             var intent: Intent = Intent(this@IntroActivity, MainActivity::class.java)
             startActivity(intent,options.toBundle())
-            handle?.removeCallbacks(this)
             finish()
         }
 

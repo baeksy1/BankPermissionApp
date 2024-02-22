@@ -65,4 +65,13 @@
         <item name="android:letterSpacing" >-0.03</item>
         <item name="android:lineSpacingExtra">8sp</item>
     </style>
+    <style name="txt_gray01">
+        <item name="fontFamily">@font/scdream5</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/txtGreyLight</item>
+        <item name="android:textSize">12.5sp</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">-0.04</item>
+        <item name="android:lineSpacingExtra">11.3sp</item>
+    </style>
+
 </resources>

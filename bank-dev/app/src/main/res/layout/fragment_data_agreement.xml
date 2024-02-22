@@ -5,6 +5,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
+        android:background="@color/white"
         android:layout_height="match_parent">
 
 
@@ -28,17 +29,28 @@
                     android:paddingStart="30dp"
 
                     android:paddingEnd="30dp">
-
+                    <ImageView
+                        android:id="@+id/logo_img"
+                        android:layout_marginTop="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/logo_23070778"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/txt_Permission"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        />
                     <TextView
                         android:id="@+id/txt_Permission"
                         style="@style/txt_black01"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="100dp"
+                        android:layout_marginTop="60dp"
                         android:text="@string/txt_sdScore"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toBottomOf="@id/logo_img" />
+
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -46,7 +58,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="100dp"
+                    android:layout_marginTop="70dp"
                     android:background="@color/permission"
                     android:paddingStart="30dp"
                     android:paddingTop="7dp"
@@ -56,7 +68,7 @@
                     app:layout_constraintTop_toBottomOf="@id/txt_Permission" />
 
                 <LinearLayout
-                    android:layout_marginTop="100dp"
+                    android:layout_marginTop="150dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -151,6 +163,7 @@
             android:id="@+id/btnSdScore"
             style="@style/btn_clickable"
             android:layout_width="match_parent"
+            android:enabled="true"
             android:text="데이터 수집 시작"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

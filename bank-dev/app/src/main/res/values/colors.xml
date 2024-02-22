@@ -10,5 +10,6 @@
     <color name="txtblackHeader">#de1d1d1d</color>
     <color name="txtblackContent">#3d3c4a</color>
 
+    <color name="txtGreyLight">#80000000</color>
 
 </resources>

@@ -5,25 +5,38 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.crepass.ppcbank_dev.application.BaseFragment
 import com.crepass.ppcbank_dev.databinding.FragmentHomeBinding
 
-class HomeFragment: BaseFragment() {
-
-
+class HomeFragment() : BaseFragment() {
+    override var isBackAvailable: Boolean =false
     private lateinit var binding:FragmentHomeBinding
-    override var isBackAvailable: Boolean = false
+
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         binding=DataBindingUtil.inflate(inflater,R.layout.fragment_home,container,false)
-        return super.onCreateView(inflater, container, savedInstanceState)
+        return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
+
+
+        super.onViewCreated(view, savedInstanceState)
+
+        binding.lifecycleOwner=this
+
+
+        binding.nextLevelBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_homeFragment_to_permissionAgreeFragment)
+        }
+
+    }
 
 
 }
