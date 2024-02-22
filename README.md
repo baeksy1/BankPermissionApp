@@ -19,7 +19,7 @@ mvvm패턴
 ## 오늘 진행 상황
 
 어플 intro Activity를 제외하고 프론트 단을 만듦
-[Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/53e67b78-70be-4daa-a372-c59a8aa3231b/Untitled.png)
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/53e67b78-70be-4daa-a372-c59a8aa3231b/Untitled.png)
 
 
 https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/53e67b78-70be-4daa-a372-c59a8aa3231b/Untitled.png
