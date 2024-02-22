@@ -21,9 +21,10 @@ mvvm패턴
 어플 intro Activity를 제외하고 프론트 단을 만듦
 ![Untitled (8)](https://github.com/baeksy1/css_project/assets/133089793/e9d00dfb-a234-444c-8a41-cdeaa644f51b)
 
-https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/53e67b78-70be-4daa-a372-c59a8aa3231b/Untitled.png
+![Untitled (9)](https://github.com/baeksy1/css_project/assets/133089793/66ef5b3c-f281-4f9a-9c2f-897ab8520ee1)
 
-https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/db539264-626a-48af-8509-8f995c0fee86/Untitled.png
+![Untitled (10)](https://github.com/baeksy1/css_project/assets/133089793/9481d576-8780-41f8-a766-830db6a27a23)
+
 
 
 ## 개발하며 고려사항
@@ -36,6 +37,6 @@ https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9
     - 다운로드도 아니고 전송시간도 불정확하기 떄문에 완료시간을 몰라 progressbar가 아닌 그냥 반복되는 gif로 하려고 함.
     - 하지만 gif는 android studio에서 지원이 안되기에 drawable에 gif의 프레임단위를 png로 추출하여 animation-list에 붙여넣음
     
-    https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/1c5b30fc-c132-4dd0-8225-dba39f5beef6/Untitled.png
+    ![Untitled (11)](https://github.com/baeksy1/css_project/assets/133089793/74ba8e69-3eaf-4d96-8e8e-0e43c5b4a39b)
+    ![ppcbank-dev – frame_loding xml  ppcbank-dev app main  2024-02-21 17-55-57 (1)](https://github.com/baeksy1/css_project/assets/133089793/8ef34dae-7b05-4162-8480-0826743ab75a)
 
-    https://prod-files-secure.s3.us-west-2.amazonaws.com/80c639bf-7705-46a5-b266-2f9f80c7e992/e67064b5-2adb-410d-a681-1f7deaef0a5f/ppcbank-dev__frame_loding.xml_ppcbank-dev.app.main_2024-02-21_17-55-57.gif
