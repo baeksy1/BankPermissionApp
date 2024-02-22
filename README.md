@@ -22,9 +22,12 @@ mvvm패턴
 
 <img width="150" src="https://github.com/baeksy1/css_project/assets/133089793/e9d00dfb-a234-444c-8a41-cdeaa644f51b">
 
+
 <img width="150" src="https://github.com/baeksy1/css_project/assets/133089793/66ef5b3c-f281-4f9a-9c2f-897ab8520ee1">
 
-![Untitled (10)](https://github.com/baeksy1/css_project/assets/133089793/9481d576-8780-41f8-a766-830db6a27a23)
+
+<img width="150" src="https://github.com/baeksy1/css_project/assets/133089793/9481d576-8780-41f8-a766-830db6a27a23">
+
 
 
 
@@ -38,6 +41,6 @@ mvvm패턴
     - 다운로드도 아니고 전송시간도 불정확하기 떄문에 완료시간을 몰라 progressbar가 아닌 그냥 반복되는 gif로 하려고 함.
     - 하지만 gif는 android studio에서 지원이 안되기에 drawable에 gif의 프레임단위를 png로 추출하여 animation-list에 붙여넣음
     
-    ![Untitled (11)](https://github.com/baeksy1/css_project/assets/133089793/74ba8e69-3eaf-4d96-8e8e-0e43c5b4a39b)
-    ![ppcbank-dev – frame_loding xml  ppcbank-dev app main  2024-02-21 17-55-57 (1)](https://github.com/baeksy1/css_project/assets/133089793/8ef34dae-7b05-4162-8480-0826743ab75a)
+    <img width="150" src="https://github.com/baeksy1/css_project/assets/133089793/74ba8e69-3eaf-4d96-8e8e-0e43c5b4a39b">
+    <img width="150" src="https://github.com/baeksy1/css_project/assets/133089793/8ef34dae-7b05-4162-8480-0826743ab75a">
 
